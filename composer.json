@@ -1,0 +1,28 @@
+{
+    "name": "jnjxp/http-status",
+    "description": "HTTP Status Helpers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jake johns",
+            "email": "jake@jakejohns.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jnjxp\\HttpStatus\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jnjxp\\HttpStatus\\": "tests/"
+        }
+    },
+    "require": {
+        "psr/http-message": "^1.0"
+    },
+    "require-dev": {
+        "zendframework/zend-diactoros": "^1.3"
+    }
+}
